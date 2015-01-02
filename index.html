@@ -1,0 +1,72 @@
+<!doctype html>
+
+<!--
+
+#lowrezjam 2014
+
+'Pac-Pixel'
+
+Andrey Butov
+http://www.andreybutov.com
+
+-->
+
+<html>
+	
+	<head>
+		<meta charset="UTF-8" />
+		<title>#lowrezjam 2014 -  Pac-Pixel</title>
+		<script src="game.min.js" type="text/javascript"></script>
+	</head>
+    
+   	<body>
+        <div style="margin-bottom:20px;">
+            <h2>'Pac-Pixel'</h2>
+            <h3>Entry for #lowrezjam 2014, a 32x32 pixel game jam.</h3>
+        </div>
+
+        <div style="margin-top:40px;">
+            <h2 id="zoom-description">original 32x32 pixels</h2>
+    	   <canvas id="game" width="32" height="32" style="border: 1px solid black;"></canvas>
+            <br /><br />
+            <h2 id="zoom-description">mirror of original - zoomed 10x</h2>
+            <canvas id="zoomed" width="320" height="320" style="border: 1px solid black;"></canvas>
+        </div>
+
+
+        <div style="margin-top:40px;">
+            <h3>Details</h3>
+            
+            <p>'Pac-Pixel' is a derivative of Pac-Man, implemented
+            at a resolution of 32x32 pixels.</p>
+
+            <p>The game is implemented in plain Javascript, with no additional 
+                dependencies.</p>
+
+            <p>The actual game plays in the small 32x32 game screen at the top. 
+                The larger 320x320 game screen is presented for the
+                player's convenience. The larger game screen contains a copy of 
+                each rendered frame of the original game, scaled 10x, so it's easier
+                to play the game.</p>
+
+            <p>Unlike the original game, Pac-Pixel features a single on-going level
+                where your goal is to eat as many food pellets as you can before 
+                being caught by one of the ghosts.</p>
+
+            <p>New food pellets will randomly appear on the playing field.</p>
+
+            <p>New ghosts will regularly enter the playing field as well.</p>
+
+            <p>Use the arrow keys to move your pac-pixel character.</p>
+
+            <p>If you're interested in how the game was made, the full source code is <a href="https://github.com/andreybutov/pac-pixel-lowrezjam2014">available here</a>.</p>
+
+            <p>Thank you for playing!</p>
+            
+            <p><strong>Andrey Butov<br/><a href="http:www.andreybutov.com" target="_blank">andreybutov.com</a></strong></p>
+
+        </div>
+
+    </body>
+
+</html>
